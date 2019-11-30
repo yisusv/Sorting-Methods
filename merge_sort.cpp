@@ -22,7 +22,7 @@ int main()
 
   cout << endl;
   cout << "-Ordered vector: " << endl;
-	print_vector(v1);
+  print_vector(v1);
 
   return 0;
 }
@@ -87,14 +87,14 @@ void merge(vector<int> left, vector<int> right, vector<int> &v)
     {
       v[i] = right[k];
       k++;
-		}
-		i++;
+    }
+    i++;
   }
   while(j < nLeft)
   {
     v[i] = left[j];
     j++; i++;
-	}
+  }
   while(k < nRight)
   {
     v[i] = right[k];
